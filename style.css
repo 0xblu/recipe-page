@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  background-color: hsl(30, 54%, 90%);
+  height: 100vh;
+}
+
+.container-recipe {
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 600px;
+  padding: 25px;
+  border-radius: 20px;
+  position: sticky;
+  left: 28.5%;
+}
+
+.image-omelette {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 33px;
+  font-family: "Young Serif";
+}
+
+.introduction {
+  font-size: 13px;
+  padding-bottom: 25px;
+}
+
+.container-preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.title-preparation {
+  color: hsl(332, 51%, 32%);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.time-preparation {
+  list-style-position: inside;
+}
+
+.title-section {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  font-size: 25px;
+}
+
+.ingredients li {
+  padding-bottom: 10px;
+}
